@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass
+  m_Shader: {fileID: 4800000, guid: a47c8d4c4cb312048babcba71bc07bc4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Grass:
+        m_Texture: {fileID: 2800000, guid: 0c1f0ffc76327d342aed76562d6cd8b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Mascara: 1.87
+    - _Mascara1: 1.08
+    - _Radius: 1.56
+    - _Radius1: 0
+    - _Seepdgras: 2.91
+    - _Seepdgras1: 2
+    - _SubstracPJ: 0.71
+    - _SubstracPJ1: 0
+    - _SubstractRadius: -0.3
+    - _SubstractRadius1: 0.84
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MyPos: {r: 0, g: 0, b: 0, a: 0}
+    - _MyPos1: {r: 0, g: 0, b: 0, a: 0}
+    - _Vectoraltura: {r: 2.81, g: 0, b: 2.03, a: 0}
+    - _Vectoraltura1: {r: 0.5, g: 0, b: 0.5, a: 0}
+  m_BuildTextureStacks: []

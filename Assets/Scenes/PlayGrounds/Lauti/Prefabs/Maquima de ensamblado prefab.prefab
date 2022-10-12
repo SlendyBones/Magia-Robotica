@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8688781894971748859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3906376503786895401}
+  - component: {fileID: 4636767289699046620}
+  m_Layer: 0
+  m_Name: Maquima de ensamblado prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3906376503786895401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688781894971748859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.45, z: 18.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1720624392719566876}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4636767289699046620
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688781894971748859}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c32d63c8e3feca40ab1b318e5ec3b11, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1182858705105940471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3906376503786895401}
+    m_Modifications:
+    - target: {fileID: -9147195754204242208, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos inferiores
+      objectReference: {fileID: 0}
+    - target: {fileID: -8739052317183238694, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos inferiores
+      objectReference: {fileID: 0}
+    - target: {fileID: -8719116991699187099, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -8700353374997593743, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8460483799315902753, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -8232727049843707751, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -8080381659385130653, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -8028230629203962303, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos inferiores
+      objectReference: {fileID: 0}
+    - target: {fileID: -7997984824251806508, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -7933589550605027006, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -7620127533814264643, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e04c21e9ad536b4fb7f929e0ffaf58e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 164cbd30773eebb4ab885531df2a5e45, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12320dad6d832584f84be4d57a546c2f, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e04c21e9ad536b4fb7f929e0ffaf58e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2e40e1b6f7723d41832905f56e472a3, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 945dad4c3771cf8488ac04297aabc411, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2e40e1b6f7723d41832905f56e472a3, type: 2}
+    - target: {fileID: -7333923321774862654, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos inferiores
+      objectReference: {fileID: 0}
+    - target: {fileID: -6843398943985509663, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -6536140654836230093, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -6325166949816052868, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -6102170941237508225, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -5739101420044538999, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -5306453692700468855, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4688599486115665965, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4671045029341662233, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4656491183570573169, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4458895598482925153, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4428872762348949986, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4372207815532354680, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Soldadora 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4321401876313917903, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4165861577033638336, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4084416708015738289, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -4043284784291489924, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -3643689548369753384, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Parte movible 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3502211526427293995, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -2698896085296522817, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos superiores
+      objectReference: {fileID: 0}
+    - target: {fileID: -2655218413126469225, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Parte Movible 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -2540717790968962575, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -2488508748426009967, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -2462213127234617910, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -2418633729786697500, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -1683219289658867555, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Parte mobible 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1286158751496775187, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -787421822771150233, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -463154514531856158, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Parte Movible 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -113052705749773414, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: -36326468260454638, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos superiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 27985930056980783, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos inferiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 48522150262119205, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 405789508656204767, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 765222535708811517, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 808072638150811437, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 832569976213692115, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Maquina de ensamblado
+      objectReference: {fileID: 0}
+    - target: {fileID: 1084204701805687940, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1118737546920298986, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Soldadora 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303448748571532129, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329157015488497381, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628623318537830174, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905261417235665965, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos inferiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025371580579705104, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127898888436524461, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195082210403311379, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662542975214957330, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969626139722162842, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165769553075559992, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569407782003148602, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849876905065344110, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos superiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973219928360163665, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073294482861294118, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4127677236455963514, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223275146212478744, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos superiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241375372827595800, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos superiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394295990437069846, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731401656891155793, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841602939366688234, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5291544695680388069, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356278043201175268, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Parte movible 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5706971606527713443, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 5938286586815073521, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Tornillos superiores
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263127503386696488, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6277179298419162200, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626438655120768531, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7426456788732158731, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500312289255931811, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650688996950224570, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Partes movibles
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107173040257012095, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116436074067388136, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234020524900122051, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439081232898821561, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: No importa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677805555888203195, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+      propertyPath: m_Name
+      value: Parte Movible 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+--- !u!4 &1720624392719566876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e398aad293f29c478b705a5d2cd9b83, type: 3}
+  m_PrefabInstance: {fileID: 1182858705105940471}
+  m_PrefabAsset: {fileID: 0}

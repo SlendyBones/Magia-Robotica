@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9044636560338968735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.986185
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7627583
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.6523952
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a98dbd694bc574c4b8d05a666daa0249, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 80f850be147009a49ae9efe7fa32a408, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: dbe44e97c2da5fc49bffea2a10b00891, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+      propertyPath: m_Name
+      value: Hongo VoladorHongo Volador Animado
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+--- !u!1 &8161763693329046990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b155797af8b2054fb7d4e6b8456c1ff, type: 3}
+  m_PrefabInstance: {fileID: 9044636560338968735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1222161961
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161763693329046990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4bdcdfd26d9ddf459b7ee9505c16499, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
