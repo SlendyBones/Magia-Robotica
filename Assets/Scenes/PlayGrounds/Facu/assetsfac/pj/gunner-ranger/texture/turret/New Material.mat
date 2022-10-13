@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 6e153fede3179104eb61e22e7d58459d, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 7533d9a757c2e2a4eb066f3d8ad25bb2, type: 3}
   m_ShaderKeywords: _EMISSION _NORMALMAP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -19,6 +19,22 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_56edf6c5272848719bcdc844bef37f1f:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_946d55b7355d4fa9ab303cae6ab3bdc7:
+        m_Texture: {fileID: 2800000, guid: 3db1c1000dc2b9b4ea89e6fbf633c88e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_da82627f6d65405c9228884ef556d513:
+        m_Texture: {fileID: 2800000, guid: 518b2ffc6308f0d4287fe477729d7330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e048259c8c6d48e8ae1a00880856dc2c:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 518b2ffc6308f0d4287fe477729d7330, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -104,6 +120,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_d98f0f713e8243b6a923b0fec1101aed: 0
+    - Vector1_083c7c6d764f4ecbbd380cd3b85d4be2: 0.3
+    - Vector1_1c3ca0de30404c5ba32f4dcc6efdb4d1: 1
+    - Vector1_6e491e3b1a6b4dcca037c4a3529090ca: 0.17
+    - Vector1_7484fd76a28641208b22f33ab7b9e679: 0.752
+    - Vector1_d132cdf6e95244e1884cf4cf9da8110f: 0.033
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
     - _Blend: 0
@@ -133,6 +155,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_9af90b6a8db54b21aeee5f58226d9961: {r: 0.4056604, g: 0.18560877, b: 0.18560877, a: 0}
+    - Color_a08d51509e524380a91a5dc923146f33: {r: 0, g: 0, b: 0, a: 0}
+    - Color_bb398b9360ca4fee8ea45190a36b4dbb: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _BaseColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 0}

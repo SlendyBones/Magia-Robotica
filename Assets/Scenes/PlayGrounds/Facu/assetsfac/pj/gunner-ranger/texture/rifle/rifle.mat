@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: rifle
-  m_Shader: {fileID: 4800000, guid: 6e153fede3179104eb61e22e7d58459d, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 7533d9a757c2e2a4eb066f3d8ad25bb2, type: 3}
   m_ShaderKeywords: _PARALLAXMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_56edf6c5272848719bcdc844bef37f1f:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_da82627f6d65405c9228884ef556d513:
+        m_Texture: {fileID: 2800000, guid: a84ea0170032bbd499c1ad32d7d904c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e048259c8c6d48e8ae1a00880856dc2c:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: a84ea0170032bbd499c1ad32d7d904c6, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -104,6 +116,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_d98f0f713e8243b6a923b0fec1101aed: 0
+    - Vector1_083c7c6d764f4ecbbd380cd3b85d4be2: 0.3
+    - Vector1_6e491e3b1a6b4dcca037c4a3529090ca: 0.19
+    - Vector1_7484fd76a28641208b22f33ab7b9e679: 0.05
+    - Vector1_d132cdf6e95244e1884cf4cf9da8110f: 0.3
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
     - _Blend: 0
@@ -133,6 +150,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_9af90b6a8db54b21aeee5f58226d9961: {r: 0, g: 0, b: 0, a: 0}
+    - Color_a08d51509e524380a91a5dc923146f33: {r: 0, g: 0, b: 0, a: 0}
+    - Color_bb398b9360ca4fee8ea45190a36b4dbb: {r: 0.6117647, g: 0.6117647, b: 0.6117647, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0, b: 0, a: 0}
