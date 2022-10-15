@@ -457,9 +457,18 @@ MonoBehaviour:
   - {fileID: 5334730063226281752, guid: c32d8c8212a39a6459a7a485ecd67ae9, type: 3}
   corruption:
   - {fileID: 3541541876077006126, guid: 9b391a290213bdc41b2922d050f86b21, type: 3}
+  decorationsCorruptionBiome:
+  - {fileID: 7963550822406144933, guid: d27b989389f6b4d4889c142f89cdc294, type: 3}
+  decorationsGraslandBiome: []
+  decorationsMountainBiome:
+  - {fileID: 5465318367552827168, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
+  decorationsForestBiome:
+  - {fileID: 1528161236915599766, guid: 4f3c05426a16e7d4cbac43cc501ad987, type: 3}
+  decorationsSeaBiome: []
   decorations:
-  - {fileID: 7881145460143532648, guid: f1f28414f924ee145939b0c6dde5fdc7, type: 3}
-  - {fileID: 7575668497225645058, guid: 2e6d0b641be97db4db623c7db90f1af3, type: 3}
+  - {fileID: 2668302871299757352, guid: 6e32f2542a0fecc4a9190aa1d06aa9d4, type: 3}
+  - {fileID: 1528161236915599766, guid: 4f3c05426a16e7d4cbac43cc501ad987, type: 3}
+  - {fileID: 6772713045290319907, guid: 52469ccd2915b124c93ac584971bfe7f, type: 3}
   ores:
   - {fileID: 8197006991890877452, guid: 7b27fcb5f94e7db4d80db34f5a459da9, type: 3}
   - {fileID: 1419851160116831625, guid: ac358e9f4d275e1468c6559ea5661558, type: 3}

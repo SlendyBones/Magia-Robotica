@@ -31,6 +31,12 @@ public class GameManager : MonoBehaviour
     public GameObject[] mountain;
     public GameObject[] corruption;
 
+    public GameObject[] decorationsCorruptionBiome;
+    public GameObject[] decorationsGraslandBiome;
+    public GameObject[] decorationsMountainBiome;
+    public GameObject[] decorationsForestBiome;
+    public GameObject[] decorationsSeaBiome;
+
     public GameObject[] decorations;
     public GameObject[] ores;
 
@@ -142,8 +148,8 @@ public class GameManager : MonoBehaviour
         //SetingSpawnZone();
 
         SpawnDecoration();
-        SpawnOres();
-        SpawnEnemy();
+        //SpawnOres();
+        //SpawnEnemy();
     }
 
     public void SetingSpawnZone()
@@ -186,8 +192,8 @@ public class GameManager : MonoBehaviour
     
         for (int i = 0; i < allPastitos.Count; i++)
         {
-            //if (oresCount >= 5) return;
-    
+            if (!allPastitos[i].GetComponent<BaseBiomeSpawner>().enable) continue;
+
             int random = Random.Range(0, 30);
             if (random == 0)
             {
@@ -205,12 +211,49 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < allPastitos.Count; i++)
         {
+            var biome = allPastitos[i].GetComponent<BaseBiomeSpawner>();
+            if (!biome.enable) continue;
+
             int random = Random.Range(0, 30);
             if (random == 0)
             {
-                int randomDecoration = Random.Range(0, decorations.Length);
-                Vector3 initPos = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
-                Instantiate(decorations[randomDecoration], initPos, Quaternion.identity);
+                //int randomDecoration = Random.Range(0, decorations.Length);
+                //Vector3 initPos = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
+                //Instantiate(decorations[randomDecoration], initPos, Quaternion.identity);
+
+                switch ((int)biome.myBiome)
+                {
+                    case ((int)MyBiome.Grassland):
+                        int randomGrassland = Random.Range(0, decorationsGraslandBiome.Length);
+                        Vector3 initPosGrassland = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
+                        Instantiate(decorationsGraslandBiome[randomGrassland], initPosGrassland, Quaternion.identity);
+                        break;
+
+                    case ((int)MyBiome.Forest):
+                        int randomForest = Random.Range(0, decorationsForestBiome.Length);
+                        Vector3 initPosForest = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
+                        Instantiate(decorationsForestBiome[randomForest], initPosForest, Quaternion.identity);
+                        break;
+
+                    case ((int)MyBiome.Mountains):
+                        int randomMountain = Random.Range(0, decorationsMountainBiome.Length);
+                        Vector3 initPosMountain = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
+                        Instantiate(decorationsMountainBiome[randomMountain], initPosMountain, Quaternion.identity);
+                        break;
+
+                    case ((int)MyBiome.Corruption):
+                        int randomCorruption = Random.Range(0, decorationsCorruptionBiome.Length);
+                        Vector3 initPosCorruption = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
+                        Instantiate(decorationsCorruptionBiome[randomCorruption], initPosCorruption, Quaternion.identity);
+                        break;
+
+                    case ((int)MyBiome.Sea):
+                        int randomSea = Random.Range(0, decorationsSeaBiome.Length);
+                        Vector3 initPosSea = new Vector3(allPastitos[i].transform.position.x, allPastitos[i].transform.position.y + 0.5f, allPastitos[i].transform.position.z);
+                        Instantiate(decorationsSeaBiome[randomSea], initPosSea, Quaternion.identity);
+                        break;
+                }
+
             }
         }
     }

@@ -29,6 +29,7 @@ public class InstantiateOnMousePos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        checking = null; //Si hay algun problema con la contruccion puede ser esto
         _canvasImages.SetActive(false);
         _assemblerUpdateImages.SetActive(false);
         layerMask = LayerMask.GetMask("BaseBiome");

@@ -7,6 +7,9 @@ public class BaseBiomeSpawner : MonoBehaviour
     public Nodes myNode;  //Nodo en el que se creo el objeto
 
     public MyBiome myBiome;  //El bioma al que pertenece 
+    public bool enable;
+    public float maxCastDist = 0.5f;
+    public float sphereRadius = 0.5f;
 
     [SerializeField]
     int spawnedNeighbours = 0;  //Los nodos vecinos en los que ya hay un bioma
@@ -19,6 +22,7 @@ public class BaseBiomeSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        enable = true;
         GameManager.instance.allPastitos.Add(this.gameObject);  //Se añade a si mismo a la lista de bloques de terreno
 
         Invoke(GameManager.instance.myMethod[((int)myBiome)], randomTime);  //Instancia otro bloque de terreno dependiendo de tipo de bloque es y el tiepo en que lo va a hacer
@@ -27,6 +31,20 @@ public class BaseBiomeSpawner : MonoBehaviour
         {
             GameManager.instance.SpawnPlayer();
         }
+    }
+
+    private void Update()
+    {
+        if (Physics.SphereCast(transform.position, sphereRadius, transform.up, out RaycastHit hit, maxCastDist))
+        {
+            if (hit.transform.gameObject.CompareTag("Ores") || hit.transform.gameObject.CompareTag("Decorations"))
+            {
+                enable = false;
+                return;
+            }
+        }
+
+        enable = true;
     }
 
     void GrasslandSpawn()  //Creacion del pasto
@@ -97,5 +115,12 @@ public class BaseBiomeSpawner : MonoBehaviour
 
             node.spawned = true;
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, Vector3.up * maxCastDist);
+        Gizmos.DrawWireSphere(transform.position + transform.up * maxCastDist, sphereRadius);
     }
 }

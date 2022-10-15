@@ -7,6 +7,8 @@ TagManager:
   - Item
   - slotholder
   - inventory
+  - Ores
+  - Decorations
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - BaseBiome
   - Ores
   - ss
-  - 
+  - Decorations
   - 
   - 
   - 
