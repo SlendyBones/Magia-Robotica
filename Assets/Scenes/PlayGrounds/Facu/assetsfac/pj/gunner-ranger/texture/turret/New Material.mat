@@ -122,7 +122,7 @@ Material:
     m_Floats:
     - Boolean_d98f0f713e8243b6a923b0fec1101aed: 0
     - Vector1_083c7c6d764f4ecbbd380cd3b85d4be2: 0.3
-    - Vector1_1c3ca0de30404c5ba32f4dcc6efdb4d1: 1
+    - Vector1_1c3ca0de30404c5ba32f4dcc6efdb4d1: 10
     - Vector1_6e491e3b1a6b4dcca037c4a3529090ca: 0.17
     - Vector1_7484fd76a28641208b22f33ab7b9e679: 0.752
     - Vector1_d132cdf6e95244e1884cf4cf9da8110f: 0.033
