@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7779920985223274324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pivot Cristales Recolectables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,9 +82,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4240877484064914527, guid: c1cd566d859893b488386cad477f55b3, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4317830148345459683, guid: c1cd566d859893b488386cad477f55b3, type: 3}
       propertyPath: m_Name
       value: Cristales Recolectables Parrent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317830148345459683, guid: c1cd566d859893b488386cad477f55b3, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749189372340536861, guid: c1cd566d859893b488386cad477f55b3, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867299344025861690, guid: c1cd566d859893b488386cad477f55b3, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1cd566d859893b488386cad477f55b3, type: 3}

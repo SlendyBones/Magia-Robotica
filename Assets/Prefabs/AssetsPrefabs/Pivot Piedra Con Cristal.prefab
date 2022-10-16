@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4942261776837920027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pivot Piedra Con Cristal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,6 +38,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4942261776837920027}
     m_Modifications:
+    - target: {fileID: 565195305478737670, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1245044058120000998, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -82,9 +86,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4774120461892133132, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5862172572287305854, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
       propertyPath: m_Name
       value: Piedra Con Cristal Parrent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862172572287305854, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143115979648375361, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}

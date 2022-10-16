@@ -81,7 +81,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f04b674f0dea65c40b779dc6947719ce, type: 2}
     - target: {fileID: 919132149155446097, guid: f32001770cd3e224f87cd677bb4c9638, type: 3}
       propertyPath: m_Name
-      value: Arbol Mistico
+      value: Arbol Mistico Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f32001770cd3e224f87cd677bb4c9638, type: 3}
+--- !u!1 &5496060343340867769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f32001770cd3e224f87cd677bb4c9638, type: 3}
+  m_PrefabInstance: {fileID: 4648985931032600040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &9171444521553864895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5496060343340867769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4732937762076777578, guid: f32001770cd3e224f87cd677bb4c9638, type: 3}

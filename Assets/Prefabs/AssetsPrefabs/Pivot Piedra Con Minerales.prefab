@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5568659726171797412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pivot Piedra Con Minerales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,6 +38,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5568659726171797412}
     m_Modifications:
+    - target: {fileID: 868859183830047405, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128343371680142097, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6544158891366457434, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -85,6 +93,14 @@ PrefabInstance:
     - target: {fileID: 6734704521500948865, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
       propertyPath: m_Name
       value: Piedra Con Minerales Parrent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6734704521500948865, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977012879245650031, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15061be0fe5b383468e33fe1841f5fd1, type: 3}
