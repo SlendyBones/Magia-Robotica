@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class rgbcontol : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject canvas3d;
 
     // Start is called before the first frame update
     void Start()
     {
         
-        canvas.SetActive(false);
+        canvas3d.SetActive(false);
         
     }
 
@@ -20,15 +21,19 @@ public class rgbcontol : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            canvas.SetActive(true);
+            canvas3d.SetActive(true);
+            canvas.SetActive(false);
+           
         }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            canvas.SetActive(false);
+            canvas3d.SetActive(false);
+            canvas.SetActive(true);
+          
         }
     }
     public void changecolor()
     {
-        canvas.SetActive(false);
+        canvas3d.SetActive(false);
     }
 }
