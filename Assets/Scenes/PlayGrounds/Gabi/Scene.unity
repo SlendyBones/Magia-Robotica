@@ -1535,7 +1535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   smoothspeed: 0.09
-  offset: {x: 0, y: 8, z: -5}
+  offset: {x: 0, y: 15, z: -8}
 --- !u!114 &1357490111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   prefab: {fileID: 5223380331707845549, guid: 885719ead8ec1f74ba750f6ba517053b, type: 3}
-  maxRayDist: 10
+  maxRayDist: 20
   maxInteractionDist: 10
   _canvasImages: {fileID: 2133286397}
   _assemblerUpdateImages: {fileID: 399826486}
