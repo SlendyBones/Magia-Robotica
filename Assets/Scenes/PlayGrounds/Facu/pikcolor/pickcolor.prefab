@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698bae3ca71fae54b98daa847a689217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colornumer: 0
+  colornumer: 5
   pjm: {fileID: 2100000, guid: 0524c7b3f17c8f248a622a0834d6f23c, type: 2}
   outline: {fileID: 2100000, guid: 6ab5c060ba2684a48b59046bf5cbb448, type: 2}
   eyes: {fileID: 2100000, guid: e83361b2ba2a4f2459b8fd2e0035bdcd, type: 2}
