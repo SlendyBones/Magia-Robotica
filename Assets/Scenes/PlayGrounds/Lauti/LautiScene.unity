@@ -15763,7 +15763,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   _maxSunLightIntensity: 1
   _moonLight: {fileID: 2122567809}
-  _maxMoonLightIntensity: 0.5
+  _maxMoonLightIntensity: 0.3
 --- !u!4 &1675354942
 Transform:
   m_ObjectHideFlags: 0
