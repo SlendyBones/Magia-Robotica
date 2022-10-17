@@ -8,7 +8,7 @@ public class BaseBiomeSpawner : MonoBehaviour
 
     public MyBiome myBiome;  //El bioma al que pertenece 
     public bool enable;
-    public float maxCastDist = 0.5f;
+    public float maxCastDist = 1;
     public float sphereRadius = 0.5f;
 
     [SerializeField]
@@ -35,9 +35,54 @@ public class BaseBiomeSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (Physics.SphereCast(transform.position, sphereRadius, transform.up, out RaycastHit hit, maxCastDist))
+        //if (Physics.SphereCast(transform.position, sphereRadius, transform.up, out RaycastHit hit, maxCastDist))
+        //{
+        //    if (hit.transform.gameObject.CompareTag("Ores") || hit.transform.gameObject.CompareTag("Decorations"))
+        //    {
+        //        enable = false;
+        //        return;
+        //    }
+        //}
+
+        if (Physics.Raycast(transform.position, Vector3.up, out RaycastHit midleHit, maxCastDist))
         {
-            if (hit.transform.gameObject.CompareTag("Ores") || hit.transform.gameObject.CompareTag("Decorations"))
+            if (midleHit.transform.gameObject.CompareTag("Ores") || midleHit.transform.gameObject.CompareTag("Decorations"))
+            {
+                enable = false;
+                return;
+            }
+        }
+
+        if (Physics.Raycast(new Vector3(transform.position.x + 0.5f, transform.position.y, transform.position.z), Vector3.up, out RaycastHit rightHit, maxCastDist))
+        {
+            if (rightHit.transform.gameObject.CompareTag("Ores") || rightHit.transform.gameObject.CompareTag("Decorations"))
+            {
+                enable = false;
+                return;
+            }
+        }
+
+        if (Physics.Raycast(new Vector3(transform.position.x - 0.5f, transform.position.y, transform.position.z), Vector3.up, out RaycastHit leftHit, maxCastDist))
+        {
+            if (leftHit.transform.gameObject.CompareTag("Ores") || leftHit.transform.gameObject.CompareTag("Decorations"))
+            {
+                enable = false;
+                return;
+            }
+        }
+
+        if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.5f), Vector3.up, out RaycastHit frontHit, maxCastDist))
+        {
+            if (frontHit.transform.gameObject.CompareTag("Ores") || frontHit.transform.gameObject.CompareTag("Decorations"))
+            {
+                enable = false;
+                return;
+            }
+        }
+
+        if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.5f), Vector3.up, out RaycastHit backHit, maxCastDist))
+        {
+            if (backHit.transform.gameObject.CompareTag("Ores") || backHit.transform.gameObject.CompareTag("Decorations"))
             {
                 enable = false;
                 return;
@@ -121,6 +166,10 @@ public class BaseBiomeSpawner : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector3.up * maxCastDist);
-        Gizmos.DrawWireSphere(transform.position + transform.up * maxCastDist, sphereRadius);
+        Gizmos.DrawRay(new Vector3(transform.position.x + 0.5f, transform.position.y, transform.position.z), Vector3.up * maxCastDist);
+        Gizmos.DrawRay(new Vector3(transform.position.x - 0.5f, transform.position.y, transform.position.z), Vector3.up * maxCastDist);
+        Gizmos.DrawRay(new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.5f), Vector3.up * maxCastDist);
+        Gizmos.DrawRay(new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.5f), Vector3.up * maxCastDist);
+        //Gizmos.DrawWireSphere(transform.position + transform.up * maxCastDist, sphereRadius);
     }
 }

@@ -567,6 +567,8 @@ MonoBehaviour:
   - {fileID: 5465318367552827168, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
   decorationsForestBiome:
   - {fileID: 1528161236915599766, guid: 4f3c05426a16e7d4cbac43cc501ad987, type: 3}
+  - {fileID: 4566736251071794973, guid: 8675eb2120515ca4b9e416bea6461c8b, type: 3}
+  - {fileID: 2668302871299757352, guid: 6e32f2542a0fecc4a9190aa1d06aa9d4, type: 3}
   decorationsSeaBiome: []
   decorations:
   - {fileID: 2668302871299757352, guid: 6e32f2542a0fecc4a9190aa1d06aa9d4, type: 3}
