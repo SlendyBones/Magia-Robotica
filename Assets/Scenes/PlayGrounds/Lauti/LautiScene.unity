@@ -15662,7 +15662,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _maxSunLightIntensity: 1
+  _maxSunLightIntensity: 1.5
   _moonLight: {fileID: 2122567809}
   _maxMoonLightIntensity: 0.1
   timeText: {fileID: 315724563}
