@@ -978,6 +978,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 457263259}
     m_Modifications:
+    - target: {fileID: 1958937761436531676, guid: b8f2c6f39ceaa5f4698c5d8360939d04, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 149
+      objectReference: {fileID: 0}
+    - target: {fileID: 2284325279802334072, guid: b8f2c6f39ceaa5f4698c5d8360939d04, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 149
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363265996073931670, guid: b8f2c6f39ceaa5f4698c5d8360939d04, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 149
+      objectReference: {fileID: 0}
     - target: {fileID: 6616313185418079077, guid: b8f2c6f39ceaa5f4698c5d8360939d04, type: 3}
       propertyPath: m_Name
       value: SVG Image

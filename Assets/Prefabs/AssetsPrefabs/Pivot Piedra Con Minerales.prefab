@@ -113,6 +113,6 @@ MonoBehaviour:
   ID: 1
   type: Ore
   description: Mineral
-  icon: {fileID: 0}
+  icon: {fileID: 3286163911610860551, guid: 28259368d7d1c1944992db64a41e3596, type: 3}
   pickedUp: 0
   equipped: 0
