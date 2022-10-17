@@ -38,10 +38,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4942261776837920027}
     m_Modifications:
-    - target: {fileID: 565195305478737670, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 1245044058120000998, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -86,21 +82,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4774120461892133132, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5862172572287305854, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
       propertyPath: m_Name
       value: Piedra Con Cristal Parrent
-      objectReference: {fileID: 0}
-    - target: {fileID: 5862172572287305854, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143115979648375361, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
@@ -109,3 +93,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1245044058120000998, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
   m_PrefabInstance: {fileID: 3445617017694233453}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2884186463660141675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 565195305478737670, guid: 685dbdf0c6c917549a459713c2d394e0, type: 3}
+  m_PrefabInstance: {fileID: 3445617017694233453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6592030847614076458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2884186463660141675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ddef65abbd0b40a5b291746b3fea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  type: Ore
+  description: Mineral
+  icon: {fileID: 0}
+  pickedUp: 0
+  equipped: 0
