@@ -112,6 +112,8 @@ MonoBehaviour:
   myNode: {fileID: 0}
   myBiome: 4
   enable: 0
+  maxCastDist: 1
+  sphereRadius: 0.5
   spawnedNeighbours: 0
   randomTime: 0
 --- !u!54 &5206484205294723616

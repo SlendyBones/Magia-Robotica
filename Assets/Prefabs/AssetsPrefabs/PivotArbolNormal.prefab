@@ -90,6 +90,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbol
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16bd0024a5f8b2c4ca7918badd84aacc, type: 3}
+      propertyPath: m_TagString
+      value: Decorations
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16bd0024a5f8b2c4ca7918badd84aacc, type: 3}
 --- !u!1 &2068203682187994734 stripped

@@ -42,6 +42,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbol raro
       objectReference: {fileID: 0}
+    - target: {fileID: 6302840621215471326, guid: 1e0f3490456341547bb15d810ce30f06, type: 3}
+      propertyPath: m_TagString
+      value: Decorations
+      objectReference: {fileID: 0}
     - target: {fileID: 6643900759513697380, guid: 1e0f3490456341547bb15d810ce30f06, type: 3}
       propertyPath: m_RootOrder
       value: 0
