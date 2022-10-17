@@ -86,6 +86,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cristales Recolectables Parrent
       objectReference: {fileID: 0}
+    - target: {fileID: 7867299344025861690, guid: c1cd566d859893b488386cad477f55b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1cd566d859893b488386cad477f55b3, type: 3}
 --- !u!4 &3355006224203527558 stripped
@@ -93,18 +97,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3533736627448659686, guid: c1cd566d859893b488386cad477f55b3, type: 3}
   m_PrefabInstance: {fileID: 2271286320225389408}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8262831866112783706 stripped
+--- !u!1 &8363075048766573949 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 7867299344025861690, guid: c1cd566d859893b488386cad477f55b3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7749189372340536861, guid: c1cd566d859893b488386cad477f55b3, type: 3}
   m_PrefabInstance: {fileID: 2271286320225389408}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1931684602606457184
+--- !u!114 &3282171359772078294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8262831866112783706}
+  m_GameObject: {fileID: 8363075048766573949}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d98ddef65abbd0b40a5b291746b3fea6, type: 3}

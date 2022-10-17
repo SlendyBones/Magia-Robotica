@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d98ddef65abbd0b40a5b291746b3fea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 1
+  ID: 4
   type: Ore
   description: Mineral
   icon: {fileID: 3286163911610860551, guid: 28259368d7d1c1944992db64a41e3596, type: 3}

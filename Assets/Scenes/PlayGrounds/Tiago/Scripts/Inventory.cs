@@ -41,6 +41,12 @@ public class Inventory : MonoBehaviour
         {
             inventory.SetActive(false);
         }
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            _inventoryEnabled = !_inventoryEnabled;
+            inventory.SetActive(false);
+        }
+
     }
     private void OnTriggerEnter(Collider target)
     {

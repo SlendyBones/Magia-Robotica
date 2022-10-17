@@ -572,7 +572,10 @@ MonoBehaviour:
   - {fileID: 7963550822406144933, guid: d27b989389f6b4d4889c142f89cdc294, type: 3}
   decorationsGraslandBiome: []
   decorationsMountainBiome:
+  - {fileID: 2676343322752799938, guid: ef9f46b9212e18b429e7702caa47dbb2, type: 3}
+  - {fileID: 7256595480889117256, guid: d2cfd12e0b706c8479638a487de76dae, type: 3}
   - {fileID: 5465318367552827168, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
+  - {fileID: 329084289612555907, guid: 3094b6b1a9ca2344795e71bfda3102fa, type: 3}
   decorationsForestBiome:
   - {fileID: 1528161236915599766, guid: 4f3c05426a16e7d4cbac43cc501ad987, type: 3}
   - {fileID: 4566736251071794973, guid: 8675eb2120515ca4b9e416bea6461c8b, type: 3}
