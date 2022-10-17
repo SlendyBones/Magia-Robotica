@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TimeController : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class TimeController : MonoBehaviour
     [SerializeField] private float _maxSunLightIntensity;
     [SerializeField] private Light _moonLight;
     [SerializeField] private float _maxMoonLightIntensity;
+    [SerializeField] private TextMeshProUGUI timeText;
 
     private DateTime _currentTime;
     private TimeSpan _sunriseTime;
@@ -42,7 +44,10 @@ public class TimeController : MonoBehaviour
     {
         _currentTime = _currentTime.AddSeconds(Time.deltaTime * _timeMultiplier);
 
-        
+        if (timeText != null)
+        {
+            timeText.text = _currentTime.ToString("HH:mm");
+        }
     }
 
     private void RotateSun()

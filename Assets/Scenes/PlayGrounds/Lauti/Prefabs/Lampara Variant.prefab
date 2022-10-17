@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7977079730211433658}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.57, z: 0}
+  m_LocalPosition: {x: 0, y: 1.842, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1463188898743131563}
@@ -42,9 +42,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.7877358, g: 0.9938284, b: 1, a: 1}
-  m_Intensity: 4.26
-  m_Range: 3.94
+  m_Color: {r: 0.7882353, g: 0.8696651, b: 1, a: 1}
+  m_Intensity: 17.73
+  m_Range: 22.54
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -80,12 +80,12 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4095
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 5
+  m_BounceIntensity: 6.42
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -163,15 +163,15 @@ PrefabInstance:
     - target: {fileID: -7215459275783268747, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b2e40e1b6f7723d41832905f56e472a3, type: 2}
+      objectReference: {fileID: 2100000, guid: 2a73baddde4e4c84dbc105147b686a97, type: 2}
     - target: {fileID: -7215459275783268747, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 945dad4c3771cf8488ac04297aabc411, type: 2}
+      objectReference: {fileID: 2100000, guid: 2a73baddde4e4c84dbc105147b686a97, type: 2}
     - target: {fileID: -7215459275783268747, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 1e04c21e9ad536b4fb7f929e0ffaf58e, type: 2}
+      objectReference: {fileID: 2100000, guid: 2a73baddde4e4c84dbc105147b686a97, type: 2}
     - target: {fileID: -3456454763835989518, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -183,6 +183,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
       propertyPath: m_Name
       value: Lampara Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568764934997963240, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7843217490771937681, guid: fda3e47e421d4fb4790fc5126a757218, type: 3}
       propertyPath: m_RootOrder
@@ -212,7 +216,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.7834201, y: 5.3683033, z: 0.7834201}
-  m_Center: {x: -7.02, y: 2.73, z: -6.21}
+  m_Center: {x: -7.02, y: 2.73, z: -6.34}
 --- !u!95 &4710953282987420079
 Animator:
   serializedVersion: 3
