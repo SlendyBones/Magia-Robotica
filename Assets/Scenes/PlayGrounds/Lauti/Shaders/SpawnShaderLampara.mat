@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: SpawnShaderLampara
   m_Shader: {fileID: -6465566751694194690, guid: 48ed4531dff018e428768c5246c7f30f, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: BOOLEAN_48B66E86704542F4AC24DC451CA185C6_ON BOOLEAN_D7EB22AAF6634215908DA52FB2245827_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,15 +40,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - BOOLEAN_48B66E86704542F4AC24DC451CA185C6: 0
+    - BOOLEAN_48B66E86704542F4AC24DC451CA185C6: 1
     - BOOLEAN_8311FE57E78549A7B6B2EBDB4B46BB04: 0
-    - BOOLEAN_D7EB22AAF6634215908DA52FB2245827: 0
+    - BOOLEAN_D7EB22AAF6634215908DA52FB2245827: 1
     - Vector1_059bba845a6e4343a391830d3dfa42c5: 0.1
     - Vector1_0629ddb7e68f4b13ad8108c53d764a9a: 0.01
-    - Vector1_381786ad0e0f446184bc3b2fac8ee6bf: -1.15
+    - Vector1_381786ad0e0f446184bc3b2fac8ee6bf: -1
     - Vector1_7d1add47ff6e4b5a8b715c9893fa0389: 30
     m_Colors:
-    - Color_05fe7d1dfa144d54ab19f09315f1aaeb: {r: 0, g: 1, b: 0.031594515, a: 0}
+    - Color_05fe7d1dfa144d54ab19f09315f1aaeb: {r: 0.20334375, g: 1, b: 0, a: 0}
     - Color_86fde01e02b3442bbdbb2cd5b5f0940d: {r: 0.6648008, g: 0.6792453, b: 0.20825917, a: 0}
     - Color_dd151cddbf674499920f8554b2c76aa6: {r: 0, g: 0.5815592, b: 1, a: 0}
     - Vector2_b6c1885dd0b545e5877de7ee4ebcc499: {r: 1, g: 1, b: 0, a: 0}

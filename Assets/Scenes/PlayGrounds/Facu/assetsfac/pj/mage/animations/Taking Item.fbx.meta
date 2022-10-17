@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 544d4cdd65c72244b95a30d13afdc533
+guid: 565b07cd9742fb84db9e9858cc46a1a1
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: walking
+    second: mixamo.com
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -19,7 +19,14 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'mixamorig:LeftUpLeg'
+      : position error = 50.284622 mm\n\t'mixamorig:LeftLeg' : position error = 217.814545
+      mm\n\t'mixamorig:LeftFoot' : position error = 281.563538 mm\n\t'mixamorig:LeftToeBase'
+      : position error = 5.546351 mm\n\t'mixamorig:RightUpLeg' : position error =
+      50.383759 mm\n\t'mixamorig:RightLeg' : position error = 218.093277 mm\n\t'mixamorig:RightFoot'
+      : position error = 280.929138 mm\n\t'mixamorig:RightToeBase' : position error
+      = 5.252791 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -35,26 +42,26 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: walking
+      name: mixamo.com
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 31
+      lastFrame: 71
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
