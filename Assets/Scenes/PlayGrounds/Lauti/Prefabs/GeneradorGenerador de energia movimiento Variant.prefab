@@ -1165,15 +1165,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.8
+      value: -15.316414
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.63
+      value: 5.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.75
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1206,18 +1206,18 @@ PrefabInstance:
     - target: {fileID: -5876208432029693474, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 164cbd30773eebb4ab885531df2a5e45, type: 2}
+      objectReference: {fileID: 2100000, guid: d8ba16eb4a99d7245bf7d87d3be53c71, type: 2}
     - target: {fileID: -3303996306114045783, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 164cbd30773eebb4ab885531df2a5e45, type: 2}
+      objectReference: {fileID: 2100000, guid: d8ba16eb4a99d7245bf7d87d3be53c71, type: 2}
     - target: {fileID: -310245010903255857, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 164cbd30773eebb4ab885531df2a5e45, type: 2}
+      objectReference: {fileID: 2100000, guid: d8ba16eb4a99d7245bf7d87d3be53c71, type: 2}
     - target: {fileID: 919132149155446097, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_Name
-      value: GeneradorGenerador de energia movimiento Variant
+      value: GeneradorGenerador de energia movimiento Variant (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3042709705490107728, guid: 56d4e0505b54aa844a4d0928304802ed, type: 3}
       propertyPath: m_Materials.Array.data[0]
