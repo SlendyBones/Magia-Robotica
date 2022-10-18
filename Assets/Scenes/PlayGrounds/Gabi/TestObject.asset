@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fbeb744ef5fc43419094b33f613778a, type: 3}
   m_Name: TestObject
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1655341289799913502, guid: 2cd6a27d2323e8a47b77297350802f5e, type: 3}
-  materialsTipe: 01000000
+  prefab: {fileID: 5333054517069675497, guid: 45397afd25c852a4792f40b199710375, type: 3}
+  materialsTipe: 
   materialsAmount: 02000000
