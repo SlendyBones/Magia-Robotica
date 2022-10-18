@@ -13,51 +13,49 @@ public class ShaderController : MonoBehaviour
     float _disolveFloat;
     [SerializeField]
     [Range(0, 1)]
-    float _floatCode;
+    float _colorToRed;
     [SerializeField]
     [Range(-1, 1)]
     float _disolveAlpha;
+
     [SerializeField]
     List<MeshRenderer> _materialList = new List<MeshRenderer>() ;
+
+  
     [SerializeField]
-    [Range(0, 1)]
-    float _ithere;
+    Material _hologram;
     [SerializeField]
-     [Range(0,1)]
-      float _disolveOn;
-    private float _clampMaxGeneral=1;
-    private float _clampMinGeneral=0;
-    private float _ClamMaxDA=1;
-    private float _ClamMinDA=-1;
+    Material _spawn;
+ 
+    float index;
+
+    private void Start()
+    {
+        ChangeSpawnToHologram();
+    }
 
 
-    
+
+
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-            _floatCode = 1;
-            ChangeColorToRed(_floatCode);
+            _colorToRed = 1;
+            ChangeColorToRed(_colorToRed);
            
         }
         else if (Input.GetKeyDown(KeyCode.J))
         {
-            _floatCode = 0;
-            ChangeColorToRed(_floatCode);
+            _colorToRed = 0;
+            ChangeColorToRed(_colorToRed);
         }
-        
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            _hologramFloat = 1;
-            Hologram(_hologramFloat);
+            ChangeHologramToSpawn();
         }
-        else if (Input.GetKeyDown(KeyCode.V))
-        {
-            _hologramFloat = 0;
-            Hologram(_hologramFloat);
-        }
-        
         
          if (Input.GetKeyDown(KeyCode.B))
         {
@@ -66,20 +64,10 @@ public class ShaderController : MonoBehaviour
         }
          else if (Input.GetKeyDown(KeyCode.N))
         {
-            _disolveFloat = 0;
+            _disolveFloat = -1f;
             Disolve(_disolveFloat);
         }
 
-         if (Input.GetKeyDown(KeyCode.F1))
-        {
-            Upvalues(_disolveAlpha, -1, 1);
-            UpDisolve(_disolveAlpha);
-        }
-         else if (Input.GetKeyDown(KeyCode.F2))
-        {
-            DownValues(_disolveAlpha, -1, 1);
-            DownDisolve(_disolveAlpha);
-        }
 
         
     }
@@ -88,80 +76,44 @@ public class ShaderController : MonoBehaviour
 
         for (int i = 0; i < _materialList.Count; i++)
         {
-            _materialList[i].material.SetFloat("Vector1_a8ad615cdfaf4f61a4a93f08bd554ec4", numcolor);
+            
+            _materialList[i].material.SetFloat("Vector1_544d9339e06341aba5618e62b9eb356d", numcolor);
         }
 
     }
 
-    void Hologram(float numhologram)
-    {
-        for (int i = 0; i < _materialList.Count; i++)
-        {
-            _materialList[i].material.SetFloat("Vector1_c1fd91cad2db4f67bec31d66c66d7086", numhologram);
-        }
-
-    }
+   
 
     void Disolve(float numdisolve)
     {
         for (int i = 0; i < _materialList.Count; i++)
         {
-            _materialList[i].material.SetFloat("Vector1_631de6cd87c84f6d89d81b6703c01390", numdisolve);
+            _materialList[i].material.SetFloat("Vector1_381786ad0e0f446184bc3b2fac8ee6bf", numdisolve);
         }
     }
 
-   private void AnimationDisolve(float numani)
+    void ChangeHologramToSpawn()
     {
-        for (int i = 0; i < _materialList.Count; i++)
-        {
-            _materialList[i].material.SetFloat("Vector1_381786ad0e0f446184bc3b2fac8ee6bf", numani);
-        }
-    }
-  
-  private  void DisolveOn(float divo)
-    {
-        for (int i = 0; i < _materialList.Count; i++)
-        {
-            _materialList[i].material.SetFloat("Vector1_fe10557a87b54ac7974b87e0c2b00904", divo);
-        }
+       
+        
+            for (int i = 0; i < _materialList.Count; i++)
+            {
+                _materialList[i].material = _spawn;
+            }
+       
+      
     }
 
-  private  void ItsHere(float its)
+    void ChangeSpawnToHologram()
     {
-        for (int i = 0; i < _materialList.Count; i++)
-        {
-            _materialList[i].material.SetFloat("Vector1_b1fbc3d1ae6f47c49ff5dddd8ab87207", its);
-        }
-    }
+       
+        
+            for (int i = 0; i < _materialList.Count; i++)
+            {
+                _materialList[i].material = _hologram;
+            }
+        
 
-    void UpDisolve(float newvalue)
-    {
-        _disolveAlpha = newvalue;
-        AnimationDisolve(_disolveAlpha);
-        _disolveOn = 1;
-        DisolveOn(_disolveOn);
-        _ithere = 0;
-        ItsHere(_ithere);
-    }
-
-    void DownDisolve(float newvalue)
-    {
-        _disolveAlpha = newvalue;
-        AnimationDisolve(_disolveAlpha);
-        _disolveOn = 1;
-        DisolveOn(_disolveOn);
-        _ithere = 0;
-        ItsHere(_ithere);
-    }
-
-    void NoGeneralDisolve(float newValue)
-    {
-        _disolveAlpha = 1;
-        AnimationDisolve(_disolveAlpha);
-        _disolveOn = 0;
-        DisolveOn(_disolveOn);
-        _ithere = 1;
-        ItsHere(_ithere);
     }
 
     void Upvalues(float upfloat,float min, float max)
