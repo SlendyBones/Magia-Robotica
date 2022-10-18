@@ -169,10 +169,11 @@ public class InstantiateOnMousePos : MonoBehaviour
         {
             if (currentPrefab.GetComponent<PreCollisionDetector>().onCollision)
             {
-                //Si el prefab está colisionando con algo (Acá se haría rojo)
+                currentPrefab.GetComponent<ShaderController>().CallToRed();
             }
             else
             {
+                currentPrefab.GetComponent<ShaderController>().CallToGreen();
                 //Si no se está chocando con nada (Acá se haría verde)
             }
         }

@@ -129,6 +129,30 @@ public class ShaderController : MonoBehaviour
         Debug.Log("Abajo");
     }
 
+   public void CallToRed()
+    {
+        _colorToRed = 1;
+        ChangeColorToRed(_colorToRed);
+    }
+
+    public void CallToGreen()
+    {
+        _colorToRed = 0;
+        ChangeColorToRed(_colorToRed);
+    }
+
+    public void CallToDisapear()
+    {
+        _disolveFloat = 1;
+        Disolve(_disolveFloat);
+    }
+
+    public void CallToApear()
+    {
+        _disolveFloat = -1f;
+        Disolve(_disolveFloat);
+    }
+
     IEnumerator AddValue(float upfloat, float min, float max, float dir)
     {
         bool continuewhile = true;
@@ -144,4 +168,5 @@ public class ShaderController : MonoBehaviour
         }
     }
   
+
 }
