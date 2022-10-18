@@ -9,6 +9,7 @@ TagManager:
   - inventory
   - Ores
   - Decorations
+  - Corrup
   layers:
   - Default
   - TransparentFX

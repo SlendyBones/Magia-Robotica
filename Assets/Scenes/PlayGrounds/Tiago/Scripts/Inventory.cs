@@ -32,6 +32,7 @@ public class Inventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             _inventoryEnabled = !_inventoryEnabled;
+            SoundManager.instance.PlaySound(SoundID.Bag);
         }
         if (_inventoryEnabled)
         {
@@ -45,6 +46,7 @@ public class Inventory : MonoBehaviour
         {
             _inventoryEnabled = false;
             inventory.SetActive(false);
+            SoundManager.instance.PlaySound(SoundID.Bag);
         }
 
     }
@@ -60,6 +62,7 @@ public class Inventory : MonoBehaviour
     {
         Item item = interaction.GetComponent<Item>();
         AddItem(interaction, item.ID, item.type, item.description, item.icon);
+        SoundManager.instance.PlaySound(SoundID.Pick);
     }
     public void AddItem(GameObject itemObject, int itemID, string itemType, string itemDescription, Sprite itemIcon)
     {

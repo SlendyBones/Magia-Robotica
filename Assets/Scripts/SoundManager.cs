@@ -149,7 +149,7 @@ public class SoundManager : MonoBehaviour
         return musicChannel[(int)id].isPlaying;
     }
 
-    public void PlayMusic(MusicID id, bool loop = false, float pitch = 1)
+    public void PlayMusic(MusicID id, bool loop = true, float pitch = 1)
     {
         musicChannel[(int)id].Play();
         musicChannel[(int)id].loop = loop;
@@ -214,56 +214,63 @@ public class SoundManager : MonoBehaviour
 
 public enum SoundID
 {
+    Buttons,
+    Construction,
+    Bag,
+    Pick,
     Machine,            //0
     Generator,           //1
     Spawn,          //2
     Steps,          //3
-    Buttons,          //4
-    Error         //5
-              //6
-            //7
-          //8
-                   //9
-           //10
-           //11
-         //12
-            //13
-               //14
-               //15
-          //16
-              //17
-             //18
-        //19
-           //20
-            //21
-             //22
-         //23
-            //24
-            //25
-        //26
-            //27
-            //28
-         //29
-               //30
-       //31
-         //32
-          //33    
-         //34
-         //35
-         //36
-         //37
-          //38
-               //39
-               //40
-       //41
-         //42
-                //43
-                //44
-                 //45
-                    //46
+    Error            //4
+                     //5
+                     //6
+                     //7
+                     //8
+                     //9
+                     //10
+                     //11
+                     //12
+                     //13
+                     //14
+                     //15
+                     //16
+                     //17
+                     //18
+                     //19
+                     //20
+                     //21
+                     //22
+                     //23
+                     //24
+                     //25
+                     //26
+                     //27
+                     //28
+                     //29
+                     //30
+                     //31
+                     //32
+                     //33    
+                     //34
+                     //35
+                     //36
+                     //37
+                     //38
+                     //39
+                     //40
+                     //41
+                     //42
+                     //43
+                     //44
+                     //45
+                     //46
 }
 
 public enum MusicID
 {
-    ChillMusic
+    ChillMusic,
+    ChillMusic2,
+    Sasterfac1,
+    ChillMusic3
 }

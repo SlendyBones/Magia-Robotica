@@ -103,4 +103,9 @@ public class SimpleMenu : MonoBehaviour
     {
         SoundManager.instance.ChangeVolumeMusic(musicVol);
     }
+
+    public void SoundOfButton()
+    {
+        SoundManager.instance.PlaySound(SoundID.Buttons);
+    }
 }

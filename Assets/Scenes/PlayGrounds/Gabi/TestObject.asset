@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestObject
   m_EditorClassIdentifier: 
   prefab: {fileID: 1655341289799913502, guid: 2cd6a27d2323e8a47b77297350802f5e, type: 3}
-  materialsTipe: 
+  materialsTipe: 01000000
   materialsAmount: 02000000

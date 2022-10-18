@@ -126,6 +126,7 @@ public class InstantiateOnMousePos : MonoBehaviour
                     GameManager.instance.createdBuildings.Add(Instantiate(prefab, pos, Quaternion.identity));
                     heldPositions.Add(currentPos.transform);
                     currentPos = null;
+                    SoundManager.instance.PlaySound(SoundID.Construction);
                 }
                 else
                 {
