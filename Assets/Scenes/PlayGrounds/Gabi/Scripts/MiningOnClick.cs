@@ -10,10 +10,12 @@ public class MiningOnClick : MonoBehaviour
     public float maxChronometer;
     public Camera playerCamera;
     public Inventory playerInventory;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         playerCamera = Camera.main;
         player = this.gameObject;
         layerMask = LayerMask.GetMask("Ores");  //Toma el layer de las menas
@@ -37,6 +39,7 @@ public class MiningOnClick : MonoBehaviour
             if(Vector3.Distance(hit.transform.position, player.transform.position) <= maxInteractionRange && hit.transform.gameObject.layer == 7)
             {
                 Interacting(hit.transform.gameObject);
+                anim.SetTrigger("takeitem");
             }
         }
     }
@@ -52,6 +55,7 @@ public class MiningOnClick : MonoBehaviour
 
 
         Debug.Log("Mena minada");
+        anim.ResetTrigger("takeitem");
         playerInventory.InteractionObject(interactableObject);
         Destroy(interactableObject);
     }

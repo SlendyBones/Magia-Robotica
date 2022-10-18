@@ -13,6 +13,8 @@ public class InstantiateOnMousePos : MonoBehaviour
     [SerializeField] GameObject _canvasImages;
     [SerializeField] GameObject _assemblerUpdateImages;
     [SerializeField] GameObject _assemblerPrefab;
+    [SerializeField] GameObject _housePrefab;
+    [SerializeField] GameObject _houseUpdateImage;
     public GameObject currentPos;
     GameObject currentPrefab;
     public bool prefabCollision;
@@ -31,6 +33,7 @@ public class InstantiateOnMousePos : MonoBehaviour
     {
         checking = null; //Si hay algun problema con la contruccion puede ser esto
         _canvasImages.SetActive(false);
+        _houseUpdateImage.SetActive(false);
         _assemblerUpdateImages.SetActive(false);
         layerMask = LayerMask.GetMask("BaseBiome");
     }
@@ -57,31 +60,59 @@ public class InstantiateOnMousePos : MonoBehaviour
                 {
                     _assemblerUpdateImages.SetActive(true);
                 }
+                if (nearbyBuildings.Contains(_housePrefab))
+                {
+                    _houseUpdateImage.SetActive(true);
+                }
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            _canvasImages.SetActive(false);
+            buildingMode = false;
+            currentPos = null;
+            Destroy(currentPrefab);
         }
 
         if (checking != null)
         {
+            bool haveAssembler = false;
+            bool haveHouse = false;
             checking();
             foreach (var building in nearbyBuildings)
             {
-                if (building.name != _assemblerPrefab.name + "(Clone)") continue;
-
-                _assemblerUpdateImages.SetActive(true);
-                return;
+                if (building.name == _assemblerPrefab.name + "(Clone)") haveAssembler = true;
+                if (building.name == _housePrefab.name + "(Clone)") haveHouse = true;
             }
 
-            _assemblerUpdateImages.SetActive(false);
+            if (haveAssembler == true)
+            {
+                _assemblerUpdateImages.SetActive(true);
+            }
+            else
+            {
+                _assemblerUpdateImages.SetActive(false);
+            }
+            
+            if (haveHouse == true)
+            {
+                _houseUpdateImage.SetActive(true);
+            }
+            else
+            {
+                _houseUpdateImage.SetActive(false);
+            }
 
-            Debug.Log("cheking != null");
+            Debug.Log("house = " + haveHouse + "/n" + "assembler = " + haveAssembler);
         }
 
         if (!buildingMode) return;
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             //if(Si no alcanzan los materiales) Debug.log(no alcanzan los materiales); return;
                 
-
             if (currentPos != null)
             {
                 if (!heldPositions.Contains(currentPos.transform) && !currentPrefab.GetComponent<PreCollisionDetector>().onCollision)
@@ -133,6 +164,19 @@ public class InstantiateOnMousePos : MonoBehaviour
             }
         }
 
+        //CAMBIO DE COLORES DEL PREFAB
+        if(currentPrefab.GetComponent<PreCollisionDetector>() != null)
+        {
+            if (currentPrefab.GetComponent<PreCollisionDetector>().onCollision)
+            {
+                //Si el prefab está colisionando con algo (Acá se haría rojo)
+            }
+            else
+            {
+                //Si no se está chocando con nada (Acá se haría verde)
+            }
+        }
+
     }
 
     public void BTN_SelecBiulding(BaseBuilding building)
@@ -141,34 +185,6 @@ public class InstantiateOnMousePos : MonoBehaviour
         prefab = building.prefab;
         materialType = building.materialsTipe;
         materialAmount = building.materialsAmount;
-        //materialsDefinition += (materialType, materialAmount) =>
-        //{
-        //    int amountInInventory = 0;
-        //    List<Slot> slotsLista = new List<Slot>();
-        //    for (int i = 0; i < materialType.Length; i++)
-        //    {
-        //        for (int j = 0; j < inventory._slot.Length; j++)
-        //        {
-        //            var slot = inventory._slot[j].GetComponent<Slot>();
-        //            if (slot.ID == materialType[i])
-        //            { 
-        //                amountInInventory++;
-        //                slotsLista.Add(slot);
-        //            } 
-        //            
-        //        }
-        //
-        //        if (amountInInventory < materialAmount[i]) return false;
-        //    }
-        //
-        //    foreach (var item in slotsLista)
-        //    {
-        //        item.CleanSlot();
-        //    }
-        //
-        //    return true;
-        //
-        //};
         buildingMode = true;
         _canvasImages.SetActive(false);
     }
@@ -195,6 +211,8 @@ public class InstantiateOnMousePos : MonoBehaviour
             }
 
             if (amountInInventory < materialAmount[i]) return false;
+
+            amountInInventory = 0;
         }
 
         foreach (var item in slotsLista)

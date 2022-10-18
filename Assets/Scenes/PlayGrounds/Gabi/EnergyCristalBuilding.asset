@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fbeb744ef5fc43419094b33f613778a, type: 3}
-  m_Name: HouseBilding
+  m_Name: EnergyCristalBuilding
   m_EditorClassIdentifier: 
-  prefab: {fileID: 874319580113962523, guid: e33fa13a4a3adc64d8ca2b98bc60c569, type: 3}
-  materialsTipe: 0100000002000000
-  materialsAmount: 0200000002000000
+  prefab: {fileID: 3260241512519024567, guid: ab0359bc7549b7f4994306514231e583, type: 3}
+  materialsTipe: 01000000020000000300000004000000
+  materialsAmount: 02000000020000000200000002000000

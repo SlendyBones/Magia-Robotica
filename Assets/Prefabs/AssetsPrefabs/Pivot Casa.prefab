@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3852287603452944976}
+  - component: {fileID: 4519418699266403447}
+  - component: {fileID: 2987964972147876551}
   m_Layer: 0
   m_Name: Pivot Casa
   m_TagString: Untagged
@@ -31,6 +33,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4519418699266403447
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4210602329553812235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.59, y: 6.34, z: 4.61}
+  m_Center: {x: 0, y: 3.48, z: 0}
+--- !u!65 &2987964972147876551
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4210602329553812235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.29, y: 1.96, z: 1.4}
+  m_Center: {x: 0.15, y: 1.03, z: 3.71}
 --- !u!1001 &3825948697334875778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41,6 +69,14 @@ PrefabInstance:
     - target: {fileID: 146934715888986116, guid: e59ab7f0cd8ccd4449c0254d98bda9d6, type: 3}
       propertyPath: m_Name
       value: Casa prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 974058452175640780, guid: e59ab7f0cd8ccd4449c0254d98bda9d6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955002211640077824, guid: e59ab7f0cd8ccd4449c0254d98bda9d6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9164991354085770835, guid: e59ab7f0cd8ccd4449c0254d98bda9d6, type: 3}
       propertyPath: m_RootOrder

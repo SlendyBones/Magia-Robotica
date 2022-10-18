@@ -43,7 +43,7 @@ public class Inventory : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            _inventoryEnabled = !_inventoryEnabled;
+            _inventoryEnabled = false;
             inventory.SetActive(false);
         }
 
