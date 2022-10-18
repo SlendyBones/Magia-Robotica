@@ -86,6 +86,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbol Mistico
       objectReference: {fileID: 0}
+    - target: {fileID: 9171444521553864895, guid: 7d4a0b2c8eab9e9438493e360b38213d, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d4a0b2c8eab9e9438493e360b38213d, type: 3}
 --- !u!4 &2305139418616997719 stripped

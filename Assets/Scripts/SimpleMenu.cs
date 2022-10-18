@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SimpleMenu : MonoBehaviour
 {
@@ -19,11 +20,25 @@ public class SimpleMenu : MonoBehaviour
     GameObject _playMenu;
     [SerializeField]
     GameObject _startMenu;
+    GameObject _actualMenu;
+    [SerializeField]
+    private Slider _soundsSlider;
+    [SerializeField]
+    private Slider _musicSlider;
+
 
     private void Start()
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+        if (PlayerPrefs.HasKey("PREFS_VolumeSFX") && _soundsSlider != null)
+            _soundsSlider.value = PlayerPrefs.GetFloat("PREFS_VolumeSFX");
+
+        if (PlayerPrefs.HasKey("PREFS_VolumeMusic") && _musicSlider != null)
+            _musicSlider.value = PlayerPrefs.GetFloat("PREFS_VolumeMusic");
+
+        _actualMenu = _startMenu;
+
     }
     public void MainMenu()
     {
@@ -77,5 +92,15 @@ public class SimpleMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void ChangeSoundsVolume(float soundsVol)
+    {
+        SoundManager.instance.ChangeVolumeSound(soundsVol);
+    }
+
+    public void ChangeMusicVolume(float musicVol)
+    {
+        SoundManager.instance.ChangeVolumeMusic(musicVol);
     }
 }
