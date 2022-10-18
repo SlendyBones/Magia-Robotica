@@ -200,13 +200,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327879587}
-  m_LocalRotation: {x: 0.21925022, y: 0, z: 0, w: 0.9756687}
-  m_LocalPosition: {x: 0, y: -2, z: -2}
+  m_LocalRotation: {x: 0.041614305, y: 0.087348014, z: -0.003652085, w: 0.9953016}
+  m_LocalPosition: {x: -3, y: 4, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 25.33, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.788, y: 10.031, z: 0}
 --- !u!114 &327879591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,6 +250,10 @@ PrefabInstance:
     - target: {fileID: 2676343322752799938, guid: ef9f46b9212e18b429e7702caa47dbb2, type: 3}
       propertyPath: m_Name
       value: Pivot Cristales Recolectables
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676343322752799938, guid: ef9f46b9212e18b429e7702caa47dbb2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7779920985223274324, guid: ef9f46b9212e18b429e7702caa47dbb2, type: 3}
       propertyPath: m_RootOrder
@@ -352,6 +356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pivot Cristal Circular
       objectReference: {fileID: 0}
+    - target: {fileID: 5465318367552827168, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
 --- !u!1 &831325113
@@ -405,7 +413,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 654fedd7b74100d4da0c7e86318b36b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -443,11 +451,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831325113}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 7}
-  m_LocalScale: {x: 8.004, y: 20.950584, z: 8.004}
+  m_LocalPosition: {x: 0, y: -3, z: 21}
+  m_LocalScale: {x: 214.123, y: 335.96356, z: 8.004}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1169543522
 PrefabInstance:
@@ -504,6 +512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pivot Piedra Con Cristal
       objectReference: {fileID: 0}
+    - target: {fileID: 7256595480889117256, guid: d2cfd12e0b706c8479638a487de76dae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2cfd12e0b706c8479638a487de76dae, type: 3}
 --- !u!1 &1342246839
@@ -557,7 +569,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 654fedd7b74100d4da0c7e86318b36b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -595,11 +607,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342246839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: -3, z: 7}
-  m_LocalScale: {x: 8.004, y: 20.950584, z: 130.64128}
+  m_LocalPosition: {x: 82, y: -3, z: 7}
+  m_LocalScale: {x: 8.004, y: 335.96356, z: 1018.8452}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1475317160
 PrefabInstance:
@@ -611,6 +623,10 @@ PrefabInstance:
     - target: {fileID: 329084289612555907, guid: 3094b6b1a9ca2344795e71bfda3102fa, type: 3}
       propertyPath: m_Name
       value: Pivot Piedra Con Minerales
+      objectReference: {fileID: 0}
+    - target: {fileID: 329084289612555907, guid: 3094b6b1a9ca2344795e71bfda3102fa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5568659726171797412, guid: 3094b6b1a9ca2344795e71bfda3102fa, type: 3}
       propertyPath: m_RootOrder
@@ -658,6 +674,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3094b6b1a9ca2344795e71bfda3102fa, type: 3}
+--- !u!1001 &1519951640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7800007
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132825353233835675, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355690846655547145, guid: 76e85835304f99e428ae6723e2315541, type: 3}
+      propertyPath: m_Name
+      value: Pivot Generador de energia
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 76e85835304f99e428ae6723e2315541, type: 3}
 --- !u!1 &1735399912
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +782,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 654fedd7b74100d4da0c7e86318b36b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -748,10 +821,10 @@ Transform:
   m_GameObject: {fileID: 1735399912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 8.004, y: 0.52481425, z: 8.004}
+  m_LocalScale: {x: 182.40315, y: -0.44348845, z: 182.40315}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1759218814
 GameObject:
@@ -844,5 +917,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
