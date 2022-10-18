@@ -590,6 +590,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9da0b92a441f5246b7de8fd9e0179c1, type: 3}
+--- !u!1 &340104060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340104061}
+  m_Layer: 0
+  m_Name: TpPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340104061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340104060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.934135, y: 12, z: 25.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &399826486
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1022,8 @@ MonoBehaviour:
   - {fileID: 7963550822406144933, guid: d27b989389f6b4d4889c142f89cdc294, type: 3}
   - {fileID: 329084289612555907, guid: 3094b6b1a9ca2344795e71bfda3102fa, type: 3}
   - {fileID: 5465318367552827168, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
+  - {fileID: 489211543306836645, guid: bf985c40a4b92a043aa2305d0dfd1e47, type: 3}
+  - {fileID: 6772713045290319907, guid: 52469ccd2915b124c93ac584971bfe7f, type: 3}
   decorationsGraslandBiome: []
   decorationsMountainBiome:
   - {fileID: 2676343322752799938, guid: ef9f46b9212e18b429e7702caa47dbb2, type: 3}
@@ -1002,6 +1034,9 @@ MonoBehaviour:
   - {fileID: 4566736251071794973, guid: 8675eb2120515ca4b9e416bea6461c8b, type: 3}
   - {fileID: 2668302871299757352, guid: 6e32f2542a0fecc4a9190aa1d06aa9d4, type: 3}
   - {fileID: 5465318367552827168, guid: cb7c2e4cceb2db34091f3a2be618999d, type: 3}
+  - {fileID: 3943641920560003083, guid: 036a7948d7d80eb46bc5a4a9b01fbfa4, type: 3}
+  - {fileID: 6704803656700521341, guid: f037287a97fdba849af4a4302755da2a, type: 3}
+  - {fileID: 3883406489109537995, guid: 095d7e7a3ab087f4b819df9b2193fd01, type: 3}
   decorationsSeaBiome: []
   decorations:
   - {fileID: 2668302871299757352, guid: 6e32f2542a0fecc4a9190aa1d06aa9d4, type: 3}
@@ -3002,6 +3037,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2066550272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2066550274}
+  - component: {fileID: 2066550273}
+  - component: {fileID: 2066550275}
+  m_Layer: 0
+  m_Name: OutMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2066550273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066550272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66304f8ff6fc8d74aa64390cdd2a47f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+--- !u!4 &2066550274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066550272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.822605, y: -4, z: 41.326355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2066550275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066550272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 500, y: 1, z: 500}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2094477526
 GameObject:
   m_ObjectHideFlags: 0
