@@ -73,12 +73,12 @@ public class ShaderController : MonoBehaviour
          if (Input.GetKeyDown(KeyCode.F1))
         {
             Upvalues(_disolveAlpha, -1, 1);
-            GeneralDisolve(_disolveAlpha);
+            UpDisolve(_disolveAlpha);
         }
          else if (Input.GetKeyDown(KeyCode.F2))
         {
             DownValues(_disolveAlpha, -1, 1);
-            NoGeneralDisolve(_disolveAlpha);
+            DownDisolve(_disolveAlpha);
         }
 
         
@@ -134,7 +134,17 @@ public class ShaderController : MonoBehaviour
         }
     }
 
-    void GeneralDisolve(float newvalue)
+    void UpDisolve(float newvalue)
+    {
+        _disolveAlpha = newvalue;
+        AnimationDisolve(_disolveAlpha);
+        _disolveOn = 1;
+        DisolveOn(_disolveOn);
+        _ithere = 0;
+        ItsHere(_ithere);
+    }
+
+    void DownDisolve(float newvalue)
     {
         _disolveAlpha = newvalue;
         AnimationDisolve(_disolveAlpha);
