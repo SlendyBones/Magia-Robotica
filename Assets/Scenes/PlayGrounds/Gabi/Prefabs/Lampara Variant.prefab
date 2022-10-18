@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1319800276507078435}
   - component: {fileID: 4516499753098320549}
   - component: {fileID: 8923003639112602921}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface777
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5117321715203833162}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: pCylinder58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,8 @@ GameObject:
   - component: {fileID: 3194861113539236656}
   - component: {fileID: 7953364977551604097}
   - component: {fileID: 1309001014251096398}
-  m_Layer: 0
+  - component: {fileID: 6264282979200966376}
+  m_Layer: 12
   m_Name: Lampara Variant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,6 +180,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6264282979200966376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2818617771326654858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a6fc78b95070840a83769245d624b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hologramFloat: 0
+  _disolveFloat: 0
+  _colorToRed: 0
+  _disolveAlpha: 0
+  _materialList:
+  - {fileID: 3459149585592509102}
+  _hologram: {fileID: 2100000, guid: 3460bd4bdfaa8544aade08cb37e3ef26, type: 2}
+  _spawn: {fileID: 2100000, guid: bf35296c7959c2147b178daa48e79446, type: 2}
 --- !u!1 &4467128490474622043
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4597406138098442319}
   - component: {fileID: 8286336302580762006}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,8 +243,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.7877358, g: 0.9938284, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 3.4
+  m_Intensity: 7.09
+  m_Range: 9.77
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -259,7 +280,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4095
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
@@ -283,7 +304,7 @@ GameObject:
   - component: {fileID: 2576316585878657105}
   - component: {fileID: 4288182777022338809}
   - component: {fileID: 3459149585592509102}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface778
   m_TagString: Untagged
   m_Icon: {fileID: 0}

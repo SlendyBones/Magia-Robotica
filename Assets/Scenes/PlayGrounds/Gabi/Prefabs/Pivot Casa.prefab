@@ -792,6 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232839928165441344}
   - component: {fileID: 645447241362313575}
+  - component: {fileID: 3192756663194781823}
   m_Layer: 0
   m_Name: Pivot Casa
   m_TagString: Untagged
@@ -827,6 +828,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.65, y: 5.9, z: 6.46}
   m_Center: {x: -1.43, y: 3.27, z: 0.83}
+--- !u!114 &3192756663194781823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874319580113962523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a6fc78b95070840a83769245d624b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hologramFloat: 0
+  _disolveFloat: 0
+  _colorToRed: 0
+  _disolveAlpha: 0
+  _materialList:
+  - {fileID: 7119912671259681027}
+  - {fileID: 3482280756655967894}
+  - {fileID: 2281834380367834893}
+  - {fileID: 1798774433553831432}
+  - {fileID: 2230174585384616665}
+  - {fileID: 4629249607690870186}
+  _hologram: {fileID: 2100000, guid: 16eab7550ce4b5348bf47fd8567e988e, type: 2}
+  _spawn: {fileID: 2100000, guid: e4c7082733f531947aaf51c48fa996c9, type: 2}
 --- !u!1 &891853942926835225
 GameObject:
   m_ObjectHideFlags: 0

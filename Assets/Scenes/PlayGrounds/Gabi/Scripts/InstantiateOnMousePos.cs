@@ -169,10 +169,12 @@ public class InstantiateOnMousePos : MonoBehaviour
         {
             if (currentPrefab.GetComponent<PreCollisionDetector>().onCollision)
             {
+                currentPrefab.GetComponent<ShaderController>().ChangeSpawnToHologram();
                 currentPrefab.GetComponent<ShaderController>().CallToRed();
             }
             else
             {
+                currentPrefab.GetComponent<ShaderController>().ChangeSpawnToHologram(); //Para cambiar el material a holograma 
                 currentPrefab.GetComponent<ShaderController>().CallToGreen();
                 //Si no se está chocando con nada (Acá se haría verde)
             }

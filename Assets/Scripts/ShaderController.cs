@@ -31,7 +31,8 @@ public class ShaderController : MonoBehaviour
 
     private void Start()
     {
-        ChangeSpawnToHologram();
+        ChangeHologramToSpawn();
+        CallToApear();
     }
 
 
@@ -92,7 +93,7 @@ public class ShaderController : MonoBehaviour
         }
     }
 
-    void ChangeHologramToSpawn()
+   public void ChangeHologramToSpawn()
     {
        
         
@@ -104,7 +105,7 @@ public class ShaderController : MonoBehaviour
       
     }
 
-    void ChangeSpawnToHologram()
+   public void ChangeSpawnToHologram()
     {
        
         

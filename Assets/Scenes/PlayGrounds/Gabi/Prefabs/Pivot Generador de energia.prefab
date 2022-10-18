@@ -556,6 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8842217463165328933}
   - component: {fileID: 5481401725529591770}
+  - component: {fileID: 7660076554412104094}
   m_Layer: 0
   m_Name: Pivot Generador de energia
   m_TagString: Untagged
@@ -572,7 +573,7 @@ Transform:
   m_GameObject: {fileID: 3260241512519024567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -326.9505, y: 307.0473, z: -433.12433}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 7733791912780693380}
   m_Father: {fileID: 0}
@@ -591,6 +592,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.38, y: 8.5, z: 4.32}
   m_Center: {x: 0, y: 4.87, z: 0}
+--- !u!114 &7660076554412104094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260241512519024567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a6fc78b95070840a83769245d624b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hologramFloat: 0
+  _disolveFloat: 0
+  _colorToRed: 0
+  _disolveAlpha: 0
+  _materialList:
+  - {fileID: 4538664586021634246}
+  - {fileID: 4803872031099490737}
+  - {fileID: 1686741511912271008}
+  _hologram: {fileID: 2100000, guid: 646b2001dda040c41828b9b880d9e4b0, type: 2}
+  _spawn: {fileID: 2100000, guid: d8ba16eb4a99d7245bf7d87d3be53c71, type: 2}
 --- !u!1 &3594395258986115254
 GameObject:
   m_ObjectHideFlags: 0
