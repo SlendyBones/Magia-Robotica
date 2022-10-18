@@ -97,8 +97,8 @@ public class BaseBiomeSpawner : MonoBehaviour
         foreach (var node in myNode.myNeighbours)
         {
             if (node.spawned == true) continue;
-
-            GameObject terrain = Instantiate(GameManager.instance.grassland[0], node.transform.position, Quaternion.identity);
+            int random = Random.Range(0, GameManager.instance.grassland.Length);
+            GameObject terrain = Instantiate(GameManager.instance.grassland[random], node.transform.position, Quaternion.identity);
             terrain.GetComponent<BaseBiomeSpawner>().myNode = node;
             terrain.GetComponent<BaseBiomeSpawner>().randomTime = Random.Range(0.01f, 0.03f);
 
@@ -112,7 +112,8 @@ public class BaseBiomeSpawner : MonoBehaviour
         {
             if (node.spawned == true) continue;
 
-            GameObject terrain = Instantiate(GameManager.instance.forest[0], node.transform.position, Quaternion.identity);
+            int random = Random.Range(0, GameManager.instance.forest.Length);
+            GameObject terrain = Instantiate(GameManager.instance.forest[random], node.transform.position, Quaternion.identity);
             terrain.GetComponent<BaseBiomeSpawner>().myNode = node;
             terrain.GetComponent<BaseBiomeSpawner>().randomTime = Random.Range(0.01f, 0.03f);
 
@@ -126,7 +127,8 @@ public class BaseBiomeSpawner : MonoBehaviour
         {
             if (node.spawned == true) continue;
 
-            GameObject terrain = Instantiate(GameManager.instance.corruption[0], node.transform.position, Quaternion.identity);
+            int random = Random.Range(0, GameManager.instance.corruption.Length);
+            GameObject terrain = Instantiate(GameManager.instance.corruption[random], node.transform.position, Quaternion.identity);
             terrain.GetComponent<BaseBiomeSpawner>().myNode = node;
             terrain.GetComponent<BaseBiomeSpawner>().randomTime = Random.Range(0.025f, 0.04f);
 
@@ -140,7 +142,8 @@ public class BaseBiomeSpawner : MonoBehaviour
         {
             if (node.spawned == true) continue;
 
-            GameObject terrain = Instantiate(GameManager.instance.mountain[0], node.transform.position, Quaternion.identity);
+            int random = Random.Range(0, GameManager.instance.mountain.Length);
+            GameObject terrain = Instantiate(GameManager.instance.mountain[random], node.transform.position, Quaternion.identity);
             terrain.GetComponent<BaseBiomeSpawner>().myNode = node;
             terrain.GetComponent<BaseBiomeSpawner>().randomTime = Random.Range(0.025f, 0.03f);
 
@@ -154,7 +157,8 @@ public class BaseBiomeSpawner : MonoBehaviour
         {
             if (node.spawned == true) continue;
 
-            GameObject terrain = Instantiate(GameManager.instance.sea[0], node.transform.position, Quaternion.identity);
+            int random = Random.Range(0, GameManager.instance.sea.Length);
+            GameObject terrain = Instantiate(GameManager.instance.sea[random], node.transform.position, Quaternion.identity);
             terrain.GetComponent<BaseBiomeSpawner>().myNode = node;
             terrain.GetComponent<BaseBiomeSpawner>().randomTime = Random.Range(0.02f, 0.03f);
 

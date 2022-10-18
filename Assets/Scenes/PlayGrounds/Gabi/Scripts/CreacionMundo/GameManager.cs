@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
     public GameObject enemy;
 
+    public ParticlesController particleController;
+
     public GameObject spawnedPlayer;
 
     Transform playerSpawnPoint;
@@ -84,7 +86,8 @@ public class GameManager : MonoBehaviour
                 {
                     case 0:
                         if (!biomesToSpawn.Contains(MyBiome.Grassland)) break;
-                        GameObject nodeOne = Instantiate(grassland[0], allNodes[random].transform.position, Quaternion.identity);
+                        int randomGrassland = Random.Range(0, grassland.Length);
+                        GameObject nodeOne = Instantiate(grassland[randomGrassland], allNodes[random].transform.position, Quaternion.identity);
                         allNodes[random].spawned = true;
                         nodeOne.GetComponent<BaseBiomeSpawner>().myNode = allNodes[random];
                         principalNodes.Add(allNodes[random]);
@@ -92,7 +95,8 @@ public class GameManager : MonoBehaviour
 
                     case 1:
                         if (!biomesToSpawn.Contains(MyBiome.Forest)) break;
-                        GameObject nodeTwo = Instantiate(forest[0], allNodes[random].transform.position, Quaternion.identity);
+                        int randomForest = Random.Range(0, forest.Length);
+                        GameObject nodeTwo = Instantiate(forest[randomForest], allNodes[random].transform.position, Quaternion.identity);
                         allNodes[random].spawned = true;
                         nodeTwo.GetComponent<BaseBiomeSpawner>().myNode = allNodes[random];
                         principalNodes.Add(allNodes[random]);
@@ -100,7 +104,8 @@ public class GameManager : MonoBehaviour
 
                     case 2:
                         if (!biomesToSpawn.Contains(MyBiome.Mountains)) break;
-                        GameObject nodeThree = Instantiate(mountain[0], allNodes[random].transform.position, Quaternion.identity);
+                        int randomMountain = Random.Range(0, mountain.Length);
+                        GameObject nodeThree = Instantiate(mountain[randomMountain], allNodes[random].transform.position, Quaternion.identity);
                         allNodes[random].spawned = true;
                         nodeThree.GetComponent<BaseBiomeSpawner>().myNode = allNodes[random];
                         principalNodes.Add(allNodes[random]);
@@ -108,7 +113,8 @@ public class GameManager : MonoBehaviour
 
                     case 3:
                         if (!biomesToSpawn.Contains(MyBiome.Corruption)) break;
-                        GameObject nodeFour = Instantiate(corruption[0], allNodes[random].transform.position, Quaternion.identity);
+                        int randomCorruption = Random.Range(0, corruption.Length);
+                        GameObject nodeFour = Instantiate(corruption[randomCorruption], allNodes[random].transform.position, Quaternion.identity);
                         allNodes[random].spawned = true;
                         nodeFour.GetComponent<BaseBiomeSpawner>().myNode = allNodes[random];
                         principalNodes.Add(allNodes[random]);
@@ -116,7 +122,8 @@ public class GameManager : MonoBehaviour
 
                     case 4:
                         if (!biomesToSpawn.Contains(MyBiome.Sea)) break;
-                        GameObject nodeFive = Instantiate(sea[0], allNodes[random].transform.position, Quaternion.identity);
+                        int randomSea = Random.Range(0, sea.Length);
+                        GameObject nodeFive = Instantiate(sea[randomSea], allNodes[random].transform.position, Quaternion.identity);
                         allNodes[random].spawned = true;
                         nodeFive.GetComponent<BaseBiomeSpawner>().myNode = allNodes[random];
                         principalNodes.Add(allNodes[random]);
@@ -142,6 +149,7 @@ public class GameManager : MonoBehaviour
         spawnedPlayer.GetComponent<Inventory>().slotHolder = slotHolder;
         spawnedPlayer.GetComponent<MiningOnClick>().playerInventory = spawnedPlayer.GetComponent<Inventory>();
         FindObjectOfType<InstantiateOnMousePos>().inventory = spawnedPlayer.GetComponent<Inventory>();
+        particleController._pj = spawnedPlayer;
 
 
         SetingTheEndOfStart();

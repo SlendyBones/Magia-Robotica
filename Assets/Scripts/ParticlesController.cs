@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class ParticlesController : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject _pj;
+    public GameObject _pj;
     [SerializeField]
     private LayerMask _corrup;
     [SerializeField]
     private GameObject _particles;
     void Start()
     {
-        StartCoroutine(LateStart());
+        //StartCoroutine(LateStart());
     }
 
     // Update is called once per frame
@@ -32,9 +31,9 @@ public class ParticlesController : MonoBehaviour
             }
         }
     }
-    IEnumerator LateStart()
-    {
-        _pj = GameManager.instance.spawnedPlayer;
-        yield return new WaitForEndOfFrame();
-    }
+    //IEnumerator LateStart()
+    //{
+    //    _pj = GameManager.instance.spawnedPlayer;
+    //    yield return new WaitForEndOfFrame();
+    //}
 }
