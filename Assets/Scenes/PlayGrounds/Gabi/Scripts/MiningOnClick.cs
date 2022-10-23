@@ -11,6 +11,8 @@ public class MiningOnClick : MonoBehaviour
     public Camera playerCamera;
     public Inventory playerInventory;
     Animator anim;
+    [SerializeField]
+    private GameObject _destroyParticles;
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +59,7 @@ public class MiningOnClick : MonoBehaviour
         Debug.Log("Mena minada");
         anim.ResetTrigger("takeitem");
         playerInventory.InteractionObject(interactableObject);
+        Instantiate(_destroyParticles, interactableObject.transform.position, interactableObject.transform.rotation);
         Destroy(interactableObject);
     }
 

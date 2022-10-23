@@ -56,6 +56,10 @@ PrefabInstance:
       value: Piso Hongos Liso Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8252385586336997736, guid: 1d02361872e434040b44213f11588967, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8252385586336997736, guid: 1d02361872e434040b44213f11588967, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1f529ba451e37b94c9d32992970759e0, type: 2}

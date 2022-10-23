@@ -112,6 +112,10 @@ PrefabInstance:
       value: Piso Tuberia L Semi T Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4271049788240168503, guid: eed67deb782364640a41591eb4acbd95, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271049788240168503, guid: eed67deb782364640a41591eb4acbd95, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3b6ec1c76f0bcff449057c748f67dce8, type: 2}
