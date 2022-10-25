@@ -13586,6 +13586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbol Mistico Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6288451917242564972, guid: 7d4a0b2c8eab9e9438493e360b38213d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71b858518200ff6489dee68a3cbd94d7, type: 2}
     - target: {fileID: 9171444521553864895, guid: 7d4a0b2c8eab9e9438493e360b38213d, type: 3}
       propertyPath: m_Convex
       value: 0
