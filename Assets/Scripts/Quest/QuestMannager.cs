@@ -126,11 +126,13 @@ public class QuestMannager : MonoBehaviour
         _ani.SetTrigger("Fade Out");
         //Animacion de movimiento;
         yield return new WaitForSeconds(0.5f);
-        _imageQuest.color = Color.black;
+        _imageQuest.color = Color.white;
         _questText.text = _questStrings[_missionToCheck];
         //_quest.transform.position = _apeearPoint.position;
         _ani.SetTrigger("Fade In");
         //animacion de entrada;
 
     }
+
+   
 }
