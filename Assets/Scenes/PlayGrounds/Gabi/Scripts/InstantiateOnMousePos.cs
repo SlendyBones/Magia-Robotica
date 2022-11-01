@@ -6,6 +6,7 @@ using System;
 public class InstantiateOnMousePos : MonoBehaviour
 {
     public GameObject player;
+    [SerializeField] QuestMannager _questMannager;
     [SerializeField] GameObject prefab;
     int layerMask;
     [SerializeField] float maxRayDist;
@@ -127,6 +128,7 @@ public class InstantiateOnMousePos : MonoBehaviour
                     heldPositions.Add(currentPos.transform);
                     currentPos = null;
                     SoundManager.instance.PlaySound(SoundID.Construction);
+                    _questMannager.CheckConstructions(prefab);
                 }
                 else
                 {

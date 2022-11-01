@@ -98,7 +98,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2466775153760905351, guid: 1a86c2983912714489ac785dc7bbfe36, type: 3}
+    - {fileID: 6267149632225481919, guid: 1a86c2983912714489ac785dc7bbfe36, type: 3}
+    - {fileID: 6386726085434001985, guid: 1a86c2983912714489ac785dc7bbfe36, type: 3}
+    - {fileID: 6331342071368501725, guid: 1a86c2983912714489ac785dc7bbfe36, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1a86c2983912714489ac785dc7bbfe36, type: 3}
 --- !u!4 &2536955150796501012 stripped
 Transform:

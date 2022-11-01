@@ -86,10 +86,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hongo pintiagudo Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7575668497225645058, guid: 2e6d0b641be97db4db623c7db90f1af3, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575668497225645058, guid: 2e6d0b641be97db4db623c7db90f1af3, type: 3}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e6d0b641be97db4db623c7db90f1af3, type: 3}
+--- !u!1 &3007339604751618882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7575668497225645058, guid: 2e6d0b641be97db4db623c7db90f1af3, type: 3}
+  m_PrefabInstance: {fileID: 4656186773954588480}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2519737342426565112 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7091479398438676152, guid: 2e6d0b641be97db4db623c7db90f1af3, type: 3}
   m_PrefabInstance: {fileID: 4656186773954588480}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8197654459766931849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3007339604751618882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ddef65abbd0b40a5b291746b3fea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 6
+  type: Ore
+  description: Mineral
+  icon: {fileID: 21300000, guid: a941f0fc2a802cf40970794e96aca10f, type: 3}
+  pickedUp: 0
+  equipped: 0
