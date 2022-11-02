@@ -1994,7 +1994,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2050,8 +2050,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5193b4dc37032bc4bb8750ede777f466, type: 3}
   sfxChannel: []
   musicChannel: []
-  volumeSFX: 1
-  volumeMusic: 1
+  volumeSFX: 0.1
+  volumeMusic: 0.1
 --- !u!4 &1025013536
 Transform:
   m_ObjectHideFlags: 0
@@ -2209,7 +2209,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

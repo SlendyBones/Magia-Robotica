@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 1766488850792065044}
   - component: {fileID: 744813210993937396}
   - component: {fileID: 6298341568174411832}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!4 &7775541950343197462
 Transform:
   m_ObjectHideFlags: 0
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6873090526509219117}
   - component: {fileID: 730891480758594707}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Pivot Flort
   m_TagString: Item
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3943641920560003083}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c590ead0e34cc449a05e0fad547331, type: 3}
   m_Name: 
@@ -153,11 +153,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 858957382151931856, guid: ee898229035cc91449489ddd9ba85941, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1168685324254264524, guid: ee898229035cc91449489ddd9ba85941, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1699258475250064101, guid: ee898229035cc91449489ddd9ba85941, type: 3}
       propertyPath: m_Name
@@ -165,11 +165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1699258475250064101, guid: ee898229035cc91449489ddd9ba85941, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4422084632898933304, guid: ee898229035cc91449489ddd9ba85941, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5761846355681611723, guid: ee898229035cc91449489ddd9ba85941, type: 3}
       propertyPath: m_RootOrder
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7460308753778078868}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d98ddef65abbd0b40a5b291746b3fea6, type: 3}
   m_Name: 

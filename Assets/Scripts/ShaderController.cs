@@ -35,43 +35,6 @@ public class ShaderController : MonoBehaviour
         CallToApear();
     }
 
-
-
-
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            _colorToRed = 1;
-            ChangeColorToRed(_colorToRed);
-           
-        }
-        else if (Input.GetKeyDown(KeyCode.J))
-        {
-            _colorToRed = 0;
-            ChangeColorToRed(_colorToRed);
-        }
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            ChangeHologramToSpawn();
-        }
-        
-         if (Input.GetKeyDown(KeyCode.B))
-        {
-            _disolveFloat = 1;
-            Disolve(_disolveFloat);
-        }
-         else if (Input.GetKeyDown(KeyCode.N))
-        {
-            _disolveFloat = -1f;
-            Disolve(_disolveFloat);
-        }
-
-
-        
-    }
     void ChangeColorToRed(float numcolor)
     {
 
