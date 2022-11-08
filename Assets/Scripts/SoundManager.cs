@@ -218,6 +218,8 @@ public enum SoundID
     Construction,
     Bag,
     Pick,
+    Snow,
+    Rain,
     Machine,            //0
     Generator,           //1
     Spawn,          //2

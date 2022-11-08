@@ -144,6 +144,7 @@ MonoBehaviour:
   _iconoInteractuables: {fileID: 4375850675701900488}
   _objeto: {fileID: 4390404199872139035}
   _radius: 3
+  _sceneCamera: {fileID: 0}
 --- !u!1001 &7430356089742840642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -151,6 +152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5406234879124409856}
     m_Modifications:
+    - target: {fileID: 1433771742216222326, guid: 9eaf380f994c69e4bbe6272561d252eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1790040491529766882, guid: 9eaf380f994c69e4bbe6272561d252eb, type: 3}
       propertyPath: m_Name
       value: Cristal Circular parrent
