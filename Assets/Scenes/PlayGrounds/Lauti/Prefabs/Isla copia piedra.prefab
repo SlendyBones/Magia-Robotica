@@ -640,7 +640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6245223605700862156}
   m_Layer: 0
-  m_Name: "Isla de monta\xF1a"
+  m_Name: Isla copia piedra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
