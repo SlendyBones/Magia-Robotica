@@ -1342,7 +1342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6245223605700862156}
   m_Layer: 0
-  m_Name: Isla copia de verde
+  m_Name: Isla verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1327,6 +1327,7 @@ Transform:
   - {fileID: 8324440363809446780}
   - {fileID: 6426438319499655559}
   - {fileID: 4411149898383793914}
+  - {fileID: 55050314184471203}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -36793,6 +36794,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
   m_PrefabInstance: {fileID: 3943007224347621844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3948379908475489749
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6245223605700862156}
+    m_Modifications:
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000011444092
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008690357
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414431227054253516, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+      propertyPath: m_Name
+      value: Piso Hongos Liso Variant (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+--- !u!4 &55050314184471203 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3893614093093158774, guid: 7a8bf6eef3910324796534dddf3f58c9, type: 3}
+  m_PrefabInstance: {fileID: 3948379908475489749}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3949111862764845673
 PrefabInstance:
