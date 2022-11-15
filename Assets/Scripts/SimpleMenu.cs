@@ -15,6 +15,8 @@ public class SimpleMenu : MonoBehaviour
     [SerializeField]
     string _mainMenu;
     [SerializeField]
+    string _testlvl;
+    [SerializeField]
     GameObject _configMenu;
     [SerializeField]
     GameObject _playMenu;
@@ -62,6 +64,13 @@ public class SimpleMenu : MonoBehaviour
     public void CharacterScene()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(_characterScene);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void TestScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(_testlvl);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
