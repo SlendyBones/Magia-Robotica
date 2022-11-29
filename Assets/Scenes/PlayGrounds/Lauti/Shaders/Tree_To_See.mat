@@ -41,5 +41,5 @@ Material:
     - _size: 0
     m_Colors:
     - Color_981c5a1bed3c46818c28475e1c01daf6: {r: 1, g: 1, b: 1, a: 0}
-    - _post: {r: 0.49035677, g: 0.2509967, b: 7.7180223, a: 0}
+    - _post: {r: 0.5092346, g: 0.21870649, b: 7.3870087, a: 0}
   m_BuildTextureStacks: []
